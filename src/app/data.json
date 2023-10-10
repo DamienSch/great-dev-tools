@@ -1,0 +1,229 @@
+{
+  "tools": [
+    {
+      "title": "PandIA",
+      "illustration": "",
+      "link": "https://pandia.pro/liste-des-sites-web-et-applications-ia-intelligence-artificielle/",
+      "description": "le site qui explique tout de A à I sur l'intelligence artificielle",
+      "type": "ia",
+      "visible": true,
+      "id": 1
+    },
+    {
+      "title": "Daily Dev",
+      "illustration": "/",
+      "link": "https://app.daily.dev/",
+      "description": "une extension de navigateur qui regroupe les dernières actualités et ressources de développement web en un seul endroit",
+      "type": "plugin",
+      "visible": true,
+      "id": 2
+    },
+    {
+      "title": "Craiyon",
+      "illustration": "/",
+      "link": "https://www.craiyon.com/",
+      "description": "un site avec lequel vous pouvez créez de l'art grace à un générateur d'images avec une IA gratuite",
+      "type": "ia",
+      "visible": true,
+      "id": 3
+    },
+    {
+      "title": "IBM Watson",
+      "illustration": "/",
+      "link": "https://www.ibm.com/cloud/watson",
+      "description": "une suite d'outils d'IA pour résoudre des problèmes complexes",
+      "type": "ia",
+      "visible": true,
+      "id": 4
+    },
+    {
+      "title": "Zsh-z",
+      "illustration": "/",
+      "link": "https://github.com/agkozak/zsh-z",
+      "description": "un outil de ligne de commande qui vous permet d'accéder rapidement aux répertoires que vous avez fréquemment visités dans le passé ou récemment",
+      "type": "ia",
+      "visible": true,
+      "id": 5
+    },
+    {
+      "title": "Feedough",
+      "illustration": "/",
+      "link": "https://www.feedough.com/ai-prompt-generator/",
+      "description": "un outil en ligne qui génère des prompts et des suggestions de sujets pour ChatGPT ou encore Midjourney",
+      "type": "website",
+      "visible": true,
+      "id": 6
+    },
+    {
+      "title": "Dev docs",
+      "illustration": "/",
+      "link": "https://devdocs.io/",
+      "description": "un navigateur de documentation rapide, hors ligne et gratuit pour les développeurs.",
+      "type": "website",
+      "visible": true,
+      "id": 7
+    },
+    {
+      "title": "Am I doing this in Prod",
+      "illustration": "/",
+      "link": "https://chrome.google.com/webstore/detail/am-i-doing-this-in-prod/aoglejgecidnodkkogbgieidhmhjjnch",
+      "description": "cette extension affiche un ruban sur des pages spécifiques afin d'avoir une vue rapide de l'environnement dans lequel vous vous trouvez",
+      "type": "plugin",
+      "visible": true,
+      "id": 8
+    },
+    {
+      "title": "Visual ping",
+      "illustration": "/",
+      "link": "https://visualping.io/",
+      "description": "cette page propose service de surveillance des changements de page web qui vous avertit lorsque des modifications sont détectées",
+      "type": "website",
+      "visible": true,
+      "id": 9
+    },
+    {
+      "title": "Carbon",
+      "illustration": "/",
+      "link": "https://carbon.now.sh/",
+      "description": "ce site vous propose de créez et partagez de belles images de présentation de votre code source",
+      "type": "ia",
+      "visible": true,
+      "id": 10
+    },
+    {
+      "title": "Awwwards",
+      "illustration": "/",
+      "link": "https://www.awwwards.com/websites/",
+      "description": "ce site vous propose les Website Awards qui reconnaissent et promeuvent le talent et les efforts des meilleurs développeurs, designers et agences Web au monde",
+      "type": "website",
+      "visible": true,
+      "id": 11
+    },
+    {
+      "title": "Web Developer Checklist",
+      "illustration": "/",
+      "link": "https://chrome.google.com/webstore/detail/web-developer-checklist/iahamcpedabephpcgkeikbclmaljebjp/related",
+      "description": "cette extension analyse n’importe quelle page Web pour détecter les violations des meilleures pratiques",
+      "type": "plugin",
+      "visible": true,
+      "id": 12
+    },
+    {
+      "title": "Wappalyzer",
+      "illustration": "/",
+      "link": "https://www.wappalyzer.com/",
+      "description": "un outil qui détecte les technologies utilisées sur un site web, y compris les frameworks front-end",
+      "type": "plugin",
+      "visible": true,
+      "id": 13
+    },
+    {
+      "title": "Photopea",
+      "illustration": "/",
+      "link": "https://www.photopea.com/",
+      "description": "un logiciel de retouche photo en ligne qui peut être considéré comme une alternative à Photoshop",
+      "type": "website",
+      "visible": true,
+      "id": 14
+    },
+    {
+      "title": "Free frontend",
+      "illustration": "/",
+      "link": "https://freefrontend.com/",
+      "description": "Exemples de codes, tutoriels et articles HTML, CSS et JavaScript ( React, Vue et bien plus) gratuits triés sur le volet",
+      "type": "website",
+      "visible": true,
+      "id": 15
+    },
+    {
+      "title": "Screen castify",
+      "illustration": "/",
+      "link": "https://www.screencastify.com/",
+      "description": "un plugin qui vous permet d'enregistrer des vidéos de votre écran pour créer des tutoriels et des démonstrations",
+      "type": "plugin",
+      "visible": true,
+      "id": 16
+    },
+    {
+      "title": "Squoosh",
+      "illustration": "/",
+      "link": "https://squoosh.app/",
+      "description": "un site qui est l'optimiseur d'image ultime qui vous permet de compresser et de comparer des images dans votre navigateur.",
+      "type": "ia",
+      "visible": true,
+      "id": 17
+    },
+    {
+      "title": "Spotify developer",
+      "illustration": "/",
+      "link": "https://developer.spotify.com/",
+      "description": "qui vous permet d'accéder à des données et des fonctionnalités musicales.",
+      "type": "website",
+      "visible": true,
+      "id": 18
+    },
+    {
+      "title": "Yworks",
+      "illustration": "/",
+      "link": "https://www.yworks.com/yed-live/",
+      "description": "une application Web gratuite de génération automatique de diagrammes online, elle permet de créer, d'importer, de modifier et d'organiser un schéma à partir d'un prompt",
+      "type": "ia",
+      "visible": true,
+      "id": 19
+    },
+    {
+      "title": "Twitch Developer",
+      "illustration": "/",
+      "link": "https://dev.twitch.tv/",
+      "description": "qui vous permet d'intégrer des fonctionnalités de streaming en direct",
+      "type": "website",
+      "visible": true,
+      "id": 20
+    },
+    {
+      "title": "Fake Filler",
+      "illustration": "/",
+      "link": "https://chrome.google.com/webstore/detail/fake-filler/bnjjngeaknajbdcgpfkgnonkmififhfo?hl=fr",
+      "description": "cette extension est LE remplisseur de formulaires pour remplir tous les champs de saisie d'une page avec de fausses données générées aléatoirement",
+      "type": "plugin",
+      "visible": true,
+      "id": 21
+    },
+    {
+      "title": "Have i been pwned",
+      "illustration": "/",
+      "link": "https://haveibeenpwned.com/",
+      "description": "ce site vous permet de rechercher parmi plusieurs violations de données si votre adresse e-mail ou votre numéro de téléphone a été compromis",
+      "type": "website",
+      "visible": true,
+      "id": 22
+    },
+    {
+      "title": "Pfpmaker",
+      "illustration": "/",
+      "link": "https://pfpmaker.com/",
+      "description": "un site qui permet de créez instantanément des centaines de photos de profil professionnelles avec l'IA pour vous présenter sous le meilleur de vous-même en ligne",
+      "type": "ia",
+      "visible": true,
+      "id": 23
+    },
+    {
+      "title": "Npm trends",
+      "illustration": "/",
+      "link": "https://npmtrends.com/",
+      "description": "comparez les statistiques de téléchargement des packages, les tailles des bundles, les étoiles github et plus encore",
+      "type": "website",
+      "visible": true,
+      "id": 24
+    },
+    {
+      "title": "Stackoverflow",
+      "illustration": "/",
+      "link": "https://stackoverflow.com/",
+      "description": "le plus dans site de copié collé du monde",
+      "type": "website",
+      "visible": true,
+      "id": 25
+    }
+  ]
+}
