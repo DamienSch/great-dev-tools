@@ -1,5 +1,6 @@
 import data from './data.json'
 import styles from './page.module.css'
+import Image from 'next/image'
 
 export default function Home() {
 
@@ -27,7 +28,7 @@ export default function Home() {
                 index < jourDuMois ? (
                     <div className={styles.card} key={tool.title}>
                         <a href={tool.link} target="_blank">
-                            <img src={`${tool.title.toLowerCase().replace(/ /g, "-")}.jpeg`} alt={`illustration de ${tool.title}`} />
+                            <Image src={`${tool.title.toLowerCase().replace(/ /g, "-")}.jpeg`} alt={`illustration de ${tool.title}`} />
                         </a>
                         <hr/>
                         <h2>{tool.title}</h2>
@@ -36,7 +37,7 @@ export default function Home() {
                     </div>
                 ) : (
                     <div className={styles.cardBlur}>
-                        <img src={`${tool.title.toLowerCase().replace(/ /g, "-")}.jpeg`} alt={`illustration de ${tool.title}`} />
+                        <Image src={`${tool.title.toLowerCase().replace(/ /g, "-")}.jpeg`} alt={`illustration de ${tool.title}`} />
                     </div>
                 )
             ))}
