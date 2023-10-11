@@ -1,6 +1,6 @@
-import data from './data.json'
-import styles from './page.module.css'
-import Image from 'next/image'
+import data from "./data.json"
+import styles from "./page.module.css"
+import Image from "next/image"
 
 export default function Home() {
 
@@ -22,13 +22,13 @@ export default function Home() {
 
     return (
         <>
-        <h1 className={styles.pageTitle}>&#127873; Calendrier de l'avant Octo &#127877;&#127995;</h1>
+        <h1 className={styles.pageTitle}>&#127873; Calendrier de l\'avant Octo &#127877;&#127995;</h1>
         <section className={styles.cardContainer}>
             { defaultTools.map((tool, index)=> (
                 index < jourDuMois ? (
                     <div className={styles.card} key={tool.title}>
                         <a href={tool.link} target="_blank">
-                            <Image src={`${tool.title.toLowerCase().replace(/ /g, "-")}.jpeg`} alt={`illustration de ${tool.title}`} />
+                            <Image className={styles.image} src={`/${tool.title.toLowerCase().replace(/ /g, "-")}.jpeg`} width={1000} height={1000} alt={`illustration de ${tool.title}`} />
                         </a>
                         <hr/>
                         <h2>{tool.title}</h2>
@@ -37,7 +37,7 @@ export default function Home() {
                     </div>
                 ) : (
                     <div className={styles.cardBlur} key={tool.title}>
-                        <Image src={`${tool.title.toLowerCase().replace(/ /g, "-")}.jpeg`} alt={`illustration de ${tool.title}`} />
+                        <Image className={styles.imageBlur} src={`/${tool.title.toLowerCase().replace(/ /g, "-")}.jpeg`} width={1000} height={1000} alt={`illustration de ${tool.title}`} />
                     </div>
                 )
             ))}
