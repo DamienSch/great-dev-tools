@@ -36,7 +36,7 @@ export default function Home() {
                         <p className={styles.cardText}>{tool.description}. Découvrez: <a href={tool.link} target="_blank">{tool.title}</a> </p>
                     </div>
                 ) : (
-                    <div className={styles.cardBlur}>
+                    <div className={styles.cardBlur} key={tool.title}>
                         <Image src={`${tool.title.toLowerCase().replace(/ /g, "-")}.jpeg`} alt={`illustration de ${tool.title}`} />
                     </div>
                 )
