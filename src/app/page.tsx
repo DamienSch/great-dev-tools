@@ -22,7 +22,7 @@ export default function Home() {
 
     return (
         <>
-        <h1 className={styles.pageTitle}>&#127873; Calendrier de l\'avant Octo &#127877;&#127995;</h1>
+        <h1 className={styles.pageTitle}>&#127873; Calendrier de l&apos;avant Octo &#127877;&#127995;</h1>
         <section className={styles.cardContainer}>
             { defaultTools.map((tool, index)=> (
                 index < jourDuMois ? (
