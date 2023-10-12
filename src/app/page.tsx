@@ -23,7 +23,7 @@ export default function Home() {
     const jourDuMois = dateDuJour.getDate();
     const moisActuel = dateDuJour.getMonth();
 
-    const montrerCaseDuJour = (cardId:number) => {
+    const montrerCaseDuJour = (cardId:any) => {
         if (cardId <= jourDuMois) {
             const updatedDataTools = dataTools.map(tool => {
                 if (tool.id === cardId) {
