@@ -49,7 +49,7 @@ export default function Home() {
             <h1 className={styles.pageTitle}>&#127873; Calendrier de l&apos;avant Octo &#127877;&#127995;</h1>
             <section className={styles.cardContainer}>
                 {defaultTools.map((tool) => (
-                    moisActuel !== 12 || tool.id <= jourDuMois && tool.visible ? (
+                    moisActuel !== 11 || tool.id <= jourDuMois && tool.visible ? (
                         <div className={styles.card} key={tool.title}>
                             <a href={tool.link} target="_blank">
                                 <Image
