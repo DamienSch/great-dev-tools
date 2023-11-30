@@ -50,7 +50,7 @@ export default function Home() {
     };
 
     useEffect(() => {
-        const localStorageData = JSON.parse(localStorage.getItem('items')) || data.tools;
+        const localStorageData = JSON.parse(localStorage.getItem('items') as string) || data.tools;
         setDataTools(localStorageData);
     }, []);
 
