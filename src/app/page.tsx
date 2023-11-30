@@ -22,7 +22,16 @@ export default function Home() {
     const dateDuJour = new Date();
     const jourDuMois = dateDuJour.getDate();
     const moisActuel = dateDuJour.getMonth();
-
+    
+    useEffect(() => {
+        const localStorageData = localStorage.getItem('items');
+        console.log('localStorageData :', localStorageData);
+    
+        if (localStorageData) {
+            setDataTools(JSON.parse(localStorageData));
+        }
+    }, []);
+    
     const montrerCaseDuJour = (cardId:any) => {
         if (cardId <= jourDuMois) {
             const updatedDataTools = dataTools.map(tool => {
