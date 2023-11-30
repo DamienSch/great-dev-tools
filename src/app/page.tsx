@@ -50,11 +50,10 @@ export default function Home() {
     };
 
     useEffect(() => {
-        const localStorageData = localStorage.getItem('items');
-        if (localStorageData) {
-            setDataTools(JSON.parse(localStorageData));
-        }
+        const localStorageData = JSON.parse(localStorage.getItem('items')) || data.tools;
+        setDataTools(localStorageData);
     }, []);
+
 
     return (
         <>
