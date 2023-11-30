@@ -30,6 +30,7 @@ export default function Home() {
                     const updatedTool = { ...tool, visible: true };
                     return updatedTool;
                 }
+                
                 return tool;
             });
             setDataTools(updatedDataTools);
