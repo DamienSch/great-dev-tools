@@ -45,7 +45,7 @@ export default function Home() {
             setDataTools(updatedDataTools);
             localStorage.setItem('items', JSON.stringify(updatedDataTools));
         } else {
-            alert(`Tu dois attendre le ${cardId}/${moisActuel} pour ouvrir cette carte.`)
+            alert(`Tu dois attendre le ${cardId}/${moisActuel+1} pour ouvrir cette carte.`)
         }
     };
 
