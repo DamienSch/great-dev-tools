@@ -6,7 +6,7 @@
       "link": "https://pandia.pro/liste-des-sites-web-et-applications-ia-intelligence-artificielle/",
       "description": "le site qui explique tout de A à I sur l'intelligence artificielle",
       "type": "ia",
-      "visible": true,
+      "visible": false,
       "id": 1
     },
     {
