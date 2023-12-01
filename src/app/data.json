@@ -15,7 +15,7 @@
       "link": "https://app.daily.dev/",
       "description": "une extension de navigateur qui regroupe les dernières actualités et ressources de développement web en un seul endroit",
       "type": "plugin",
-      "visible": true,
+      "visible": false,
       "id": 2
     },
     {
@@ -24,7 +24,7 @@
       "link": "https://www.craiyon.com/",
       "description": "un site avec lequel vous pouvez créez de l'art grace à un générateur d'images avec une IA gratuite",
       "type": "ia",
-      "visible": true,
+      "visible": false,
       "id": 3
     },
     {
@@ -33,7 +33,7 @@
       "link": "https://www.ibm.com/cloud/watson",
       "description": "une suite d'outils d'IA pour résoudre des problèmes complexes",
       "type": "ia",
-      "visible": true,
+      "visible": false,
       "id": 4
     },
     {
@@ -42,7 +42,7 @@
       "link": "https://github.com/agkozak/zsh-z",
       "description": "un outil de ligne de commande qui vous permet d'accéder rapidement aux répertoires que vous avez fréquemment visités dans le passé ou récemment",
       "type": "ia",
-      "visible": true,
+      "visible": false,
       "id": 5
     },
     {
@@ -51,7 +51,7 @@
       "link": "https://www.feedough.com/ai-prompt-generator/",
       "description": "un outil en ligne qui génère des prompts et des suggestions de sujets pour ChatGPT ou encore Midjourney",
       "type": "website",
-      "visible": true,
+      "visible": false,
       "id": 6
     },
     {
@@ -60,7 +60,7 @@
       "link": "https://devdocs.io/",
       "description": "un navigateur de documentation rapide, hors ligne et gratuit pour les développeurs.",
       "type": "website",
-      "visible": true,
+      "visible": false,
       "id": 7
     },
     {
@@ -69,7 +69,7 @@
       "link": "https://chrome.google.com/webstore/detail/am-i-doing-this-in-prod/aoglejgecidnodkkogbgieidhmhjjnch",
       "description": "cette extension affiche un ruban sur des pages spécifiques afin d'avoir une vue rapide de l'environnement dans lequel vous vous trouvez",
       "type": "plugin",
-      "visible": true,
+      "visible": false,
       "id": 8
     },
     {
@@ -78,7 +78,7 @@
       "link": "https://visualping.io/",
       "description": "cette page propose service de surveillance des changements de page web qui vous avertit lorsque des modifications sont détectées",
       "type": "website",
-      "visible": true,
+      "visible": false,
       "id": 9
     },
     {
@@ -87,7 +87,7 @@
       "link": "https://carbon.now.sh/",
       "description": "ce site vous propose de créez et partagez de belles images de présentation de votre code source",
       "type": "ia",
-      "visible": true,
+      "visible": false,
       "id": 10
     },
     {
@@ -96,7 +96,7 @@
       "link": "https://www.awwwards.com/websites/",
       "description": "ce site vous propose les Website Awards qui reconnaissent et promeuvent le talent et les efforts des meilleurs développeurs, designers et agences Web au monde",
       "type": "website",
-      "visible": true,
+      "visible": false,
       "id": 11
     },
     {
@@ -105,7 +105,7 @@
       "link": "https://chrome.google.com/webstore/detail/web-developer-checklist/iahamcpedabephpcgkeikbclmaljebjp/related",
       "description": "cette extension analyse n’importe quelle page Web pour détecter les violations des meilleures pratiques",
       "type": "plugin",
-      "visible": true,
+      "visible": false,
       "id": 12
     },
     {
@@ -114,7 +114,7 @@
       "link": "https://www.wappalyzer.com/",
       "description": "un outil qui détecte les technologies utilisées sur un site web, y compris les frameworks front-end",
       "type": "plugin",
-      "visible": true,
+      "visible": false,
       "id": 13
     },
     {
@@ -123,7 +123,7 @@
       "link": "https://www.photopea.com/",
       "description": "un logiciel de retouche photo en ligne qui peut être considéré comme une alternative à Photoshop",
       "type": "website",
-      "visible": true,
+      "visible": false,
       "id": 14
     },
     {
@@ -132,7 +132,7 @@
       "link": "https://freefrontend.com/",
       "description": "Exemples de codes, tutoriels et articles HTML, CSS et JavaScript ( React, Vue et bien plus) gratuits triés sur le volet",
       "type": "website",
-      "visible": true,
+      "visible": false,
       "id": 15
     },
     {
@@ -141,7 +141,7 @@
       "link": "https://www.screencastify.com/",
       "description": "un plugin qui vous permet d'enregistrer des vidéos de votre écran pour créer des tutoriels et des démonstrations",
       "type": "plugin",
-      "visible": true,
+      "visible": false,
       "id": 16
     },
     {
@@ -150,7 +150,7 @@
       "link": "https://squoosh.app/",
       "description": "un site qui est l'optimiseur d'image ultime qui vous permet de compresser et de comparer des images dans votre navigateur.",
       "type": "ia",
-      "visible": true,
+      "visible": false,
       "id": 17
     },
     {
@@ -159,7 +159,7 @@
       "link": "https://developer.spotify.com/",
       "description": "qui vous permet d'accéder à des données et des fonctionnalités musicales.",
       "type": "website",
-      "visible": true,
+      "visible": false,
       "id": 18
     },
     {
@@ -168,7 +168,7 @@
       "link": "https://www.yworks.com/yed-live/",
       "description": "une application Web gratuite de génération automatique de diagrammes online, elle permet de créer, d'importer, de modifier et d'organiser un schéma à partir d'un prompt",
       "type": "ia",
-      "visible": true,
+      "visible": false,
       "id": 19
     },
     {
@@ -177,7 +177,7 @@
       "link": "https://dev.twitch.tv/",
       "description": "qui vous permet d'intégrer des fonctionnalités de streaming en direct",
       "type": "website",
-      "visible": true,
+      "visible": false,
       "id": 20
     },
     {
@@ -186,7 +186,7 @@
       "link": "https://chrome.google.com/webstore/detail/fake-filler/bnjjngeaknajbdcgpfkgnonkmififhfo?hl=fr",
       "description": "cette extension est LE remplisseur de formulaires pour remplir tous les champs de saisie d'une page avec de fausses données générées aléatoirement",
       "type": "plugin",
-      "visible": true,
+      "visible": false,
       "id": 21
     },
     {
@@ -195,7 +195,7 @@
       "link": "https://haveibeenpwned.com/",
       "description": "ce site vous permet de rechercher parmi plusieurs violations de données si votre adresse e-mail ou votre numéro de téléphone a été compromis",
       "type": "website",
-      "visible": true,
+      "visible": false,
       "id": 22
     },
     {
@@ -204,7 +204,7 @@
       "link": "https://pfpmaker.com/",
       "description": "un site qui permet de créez instantanément des centaines de photos de profil professionnelles avec l'IA pour vous présenter sous le meilleur de vous-même en ligne",
       "type": "ia",
-      "visible": true,
+      "visible": false,
       "id": 23
     },
     {
@@ -213,7 +213,7 @@
       "link": "https://npmtrends.com/",
       "description": "comparez les statistiques de téléchargement des packages, les tailles des bundles, les étoiles github et plus encore",
       "type": "website",
-      "visible": true,
+      "visible": false,
       "id": 24
     },
     {
@@ -222,7 +222,7 @@
       "link": "https://stackoverflow.com/",
       "description": "le plus dans site de copié collé du monde",
       "type": "website",
-      "visible": true,
+      "visible": false,
       "id": 25
     }
   ]
