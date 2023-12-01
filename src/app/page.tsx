@@ -25,7 +25,6 @@ export default function Home() {
     
     useEffect(() => {
         const localStorageData = localStorage.getItem('items');
-        console.log('localStorageData :', localStorageData);
     
         if (localStorageData) {
             setDataTools(JSON.parse(localStorageData));
